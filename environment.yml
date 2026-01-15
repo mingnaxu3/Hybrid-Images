@@ -1,0 +1,17 @@
+name: cs4670_env
+channels:
+  - anaconda
+  - conda-forge
+  - defaults
+dependencies:
+  - matplotlib
+  - numpy
+  - opencv
+  - pillow
+  - py-opencv
+  - pyparsing=2.4
+  - python=3.10
+  - pyttk=0.3
+  - scipy
+  - tk=8.6
+
