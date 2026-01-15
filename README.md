@@ -6,7 +6,10 @@ Using an image filtering function, create hybrid images that change in interpret
 Using the concepts that high frequency dominates perception when it is available, but lower frequency dominates perception at greater distances, we are able to create a hybrid image that leads to different interpretations at different distances. 
 
 **Image Filtering**: implemented the convolution function from scratch to filter the image. 
+
 **Gaussian Blur**: Blurred the image by implementing a Gaussian blur, which takes a weighted average of neighboring pixels, which produces a kernel of a specified height and width that can be used with the convolution function to produce a blurred version of the image. 
+
 **High and Low Pass Filters**: Implemented the high pass filter, which keepts only the fine details, and the low pass filters, which only retains the low level structures. 
+
 **Hybrid Images**: By combining the sum of the low pass filtered image with the high pass filtered image, and controlling the cutt-off frequency amount, which tells us how much high and low frequency to remove and leave in the image. 
 
